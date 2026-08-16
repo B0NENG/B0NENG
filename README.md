@@ -1,4 +1,4 @@
-#🛡️ **Cybersecurity Portfolio**
+# **🛡️ Cybersecurity Portfolio**
 
 Welcome to my cybersecurity portfolio.
 
@@ -8,7 +8,7 @@ My main focus is on developing practical skills in penetration testing, web secu
 
 The portfolio primarily contains write-ups from TryHackMe and Hack The Box, documenting the methodology, tools, techniques, and lessons learned from each challenge.
 
-##🚩 Hands-on Labs
+## **🚩Hands-on Labs**
 
 **Hack The Box**
 - [Hack The Box](https://app.hackthebox.com/users/781324)
@@ -18,6 +18,7 @@ The portfolio primarily contains write-ups from TryHackMe and Hack The Box, docu
 
 [![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/.fer.png)](https://tryhackme.com/p/.fer)
 
+## **✍️ Writeups**
 I use Hack The Box to develop practical penetration-testing skills through vulnerable machines and challenges.
 
 Write-ups cover the complete attack path where appropriate, including:
@@ -32,7 +33,7 @@ Write-ups cover the complete attack path where appropriate, including:
 - Post-exploitation
 - Lessons learned
 
-## 🎓 Certifications & Training
+##  **🎓Certifications & Training**
 
 | Certification | Issuer | Credential |
 |---|---|---|

@@ -1,4 +1,4 @@
-![](Images/Pasted%20image%2020260815211144.png)
+![](../Images/Pasted%20image%2020260815211144.png)
 
 **Platform:** Hack The Box  
 **Difficulty:** Easy  

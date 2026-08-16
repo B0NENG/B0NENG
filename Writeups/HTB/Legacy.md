@@ -33,7 +33,7 @@ Administrator / Root Flag
 ### 1. Reconnaissance
 
 I started with an Nmap scan to identify open ports and running services.
-![[../Images/Pasted image 20260815211207.png]]
+![](../Images/Pasted%20image%2020260815211207.png)
 
 The scan identified three open TCP ports:
 
@@ -51,7 +51,7 @@ The combination of **Windows XP** and an exposed SMB service immediately made SM
 
 I used Nmap's SMB enumeration scripts to gather additional information about the target.
 
-![[../Images/Pasted image 20260815212806.png]]
+![](../Images/Pasted%20image%2020260815212806.png)
 
 The results confirmed:
 
@@ -65,7 +65,7 @@ The target was therefore confirmed to be an outdated Windows XP system.
  
 I then checked which SMB protocols were supported:
 
-![[HTB/Writeups/Images/Pasted image 20260815212931.png]]
+![](../Images/Pasted%20image%2020260815212931.png)
 
 The target supported:
 
@@ -87,7 +87,7 @@ MS08-067 / NetAPI
 
 MS08-067 is a remote code execution vulnerability affecting the Windows Server Service. Under vulnerable configurations, an attacker can execute arbitrary code remotely without valid credentials.
 
-![[Pasted image 20260815214410.png]]
+![](../Images/Pasted%20image%2020260815214410.png)
 
 
 The Metasploit module was identified as:
@@ -141,7 +141,7 @@ Microsoft Windows XP [Version 5.1.2600]
 
 At this point, remote code execution had been successfully achieved.
 
-![[../Images/Pasted image 20260815215911.png]]
+![](../Images/Pasted%20image%2020260815215911.png)
 
 ## 5. User flag
 
@@ -170,7 +170,7 @@ type user.txt
 
 This confirmed successful access to the user-level flag.
 
-![[../Images/Pasted image 20260815220002.png]]
+![](../Images/Pasted%20image%2020260815220002.png)
 
 ## 6. Root flag
 
@@ -196,6 +196,6 @@ dir
 
 The flag was then retrieved from the file.
 
-![[../Images/Pasted image 20260815215852.png]]
+![](../Images/Pasted%20image%2020260815215852.png)
 
 This confirmed that the machine had been fully compromised and that administrative access had been obtained.

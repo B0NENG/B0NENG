@@ -87,6 +87,7 @@ With the FTP exploit unsuccessful, I therefore moved on to enumerate the SMB ser
 ![](../Images/VirtualBoxVM_GrxNwMz1BK.png)
 
 ![](../Images/VirtualBoxVM_qp01phLCs8.png)
+
 SMB server on port `445` is a  share using SMBv1, which is an obsolete protocol known to be vulnerable. Furthermore the results confirms:
 - OS: **Samba 3.0.20-Debian**
 - Computer name: **lame**

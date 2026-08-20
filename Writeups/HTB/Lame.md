@@ -42,6 +42,7 @@ The scan identifies four open TCP Ports:
 | 139/tcp | netbios-ssn  |
 | 445/tcp | microsoft-ds |
 
+
 More in-depth nmap scans shows Anonymous FTP login is allowed. And versions running on the TCP ports, looking for potential vulnerable versions running on the machine.
 
 ![](../Images/Pasted%20image%2020260819144639.png)

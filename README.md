@@ -11,8 +11,10 @@ The portfolio primarily contains write-ups from TryHackMe and Hack The Box, docu
 ## **🚩Hands-on Labs**
 
 **Hack The Box**
-- [Hack The Box](https://app.hackthebox.com/users/781324)
 
+<a href="https://app.hackthebox.com/public/users/781324">
+  <img src="htb_badge.svg" alt="HTB Badge">
+</a>
 
 **TryHackMe**
 
